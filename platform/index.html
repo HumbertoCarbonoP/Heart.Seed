@@ -1,65 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/platform/meta/favicons/ms-icon-310x310.png" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="/platform/meta/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/platform/meta/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/platform/meta/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/platform/meta/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/platform/meta/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/platform/meta/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/platform/meta/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/platform/meta/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/platform/meta/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/platform/meta/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/platform/meta/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/platform/meta/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/platform/meta/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/platform/meta/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="style_index.css">
-    <script src="https://kit.fontawesome.com/e58283b76b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="meta/favicons/favicon.png" type="image/x-icon" sizes="180x180">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&family=Qwitcher+Grypen&family=Sen&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.css">
     <title>Heart.Seed</title>
 </head>
+
 <body>
+    <div class="background-container"></div>
     <header>
-        <div class="flex-container">
-            <div class="flex-container__item flex-container__item-logo">
-                <img src="/platform/assets/images/3.webp" alt="Logo de Heart.Seed" id="logo">
-            </div>
-            <div class="flex-container__item flex-container__item-nav">
-                <nav>
-                    <ul>
-                        <li class="nav__li"><i class="fas fa-users"></i><a href="#">Sobre nosotros</a></li><li class="nav__li"><i class="fas fa-question"></i><a href="#">Ayuda</a></li><li class="nav__li"><i class="fas fa-phone"></i><a href="#">Contáctanos</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="logo-container">
+            <img src="/meta/favicons/logo-heart-seed.png" alt="Logo de Heart.Seed">
+            <h1>Heart.Seed</h1>
         </div>
-        <h2 id="frase">Recuerda ser el cambio que quieres ver en el mundo.</h2>
+        <div class="nav-container">
+            <nav>
+                <div class="responsive-bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <a href="#sobre-nosotros-id" class="nav-item"><i class="fas fa-users"></i>Sobre nosotros</a>
+                <a href="#final" class="nav-item"><i class="fas fa-phone"></i>Contáctanos</a>
+                <a href="main-wall.html" class="nav-item"><i class="fa-solid fa-right-to-bracket"></i>Inicia sesión</a>
+                <a href="main-wall.html" class="nav-item"><i class="fas fa-plus"></i>Regístrate</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <div class="muro">
-                <div class="tittle">
-                    <h3>Perfiles recomendados</h3>
+        <section class="hero">
+            <div class="hero-container">
+                <h2>Recuerda ser el cambio que quieres ver en el mundo</h2>
+                <p>¡Únete a Heart.Seed hoy!</p>
+                <form action="main-wall.html">
+                    <button id="inicia-sesion">Inicia sesión</button>
+                    <button id="registrate">Regístrate</button>
+                </form>
+            </div>
+        </section>
+        <section class="sobre-nosotros-container" id="sobre-nosotros-id">
+            <div class="sobre-nosotros">
+                <h2>Sobre <b>Heart.</b><b>Seed</b></h2>
+                <div class="presentacion">
+                    <h3>¿Qué es Heart.Seed?</h3>
+                    <p>Heart.Seed es una red social que tiene como propósito conectar personas e integrar grupos
+                        interesados en la realización labores que aporten al desarrollo sostenible, por medio de la
+                        planeación de eventos, creación de grupos e intercambio de información. Con el objetivo de
+                        incentivar y facilitar la realización de actividades y acceso a la información que tenga un
+                        impacto positivo en la sociedad.</p>
+                    <div class="img-container"></div>
                 </div>
-                <div class="content">
-                    <ul id="profiles-list">
-                        <li><a href="profile.html" target="_blank">María José González Peláez</a></li>
-                        <li><a href="profile.html" target="_blank">Antonio Carbonó Pedroza</a></li>
-                        <li><a href="profile.html" target="_blank">David González Idárraga</a></li>
-                    </ul>
+                <div class="nuestra-comunidad">
+                    <h3><b>Nuestra</b> <b>comunidad</b></h3>
+                    <p>¡Unete a nosotros! Heart.Seed es una comunidad en constante crecimiento, conformada por todas
+                        aquellas personas que desean generar un cambio en su entorno, su ciudad, su país y el mundo.
+                        ¿Deseas plantar especies en peligro? seguro que aquí encuentras a alguien que también, ¿deseas
+                        promover una jornada de vacunación? en Heart.Seed hay muchos usuarios que te pueden apoyar,
+                        ¿reciclaje y reutilización como estilo de vida? este es el lugar. Sé parte de Heart.Seed hoy y
+                        haz del mundo el lugar que deseas para todos ¡en compañía!</p>
+                    <h4>¡Nuestra comunidad tiene <b>1.893</b> integrantes actualmente!</h4>
+                </div>
+                <div class="vision">
+                    <img src="/meta/favicons/logo-heart-seed-color.png" alt="Logo de Heart.Seed">
+                    <h3>Visión</h3>
+                    <p>Heart.Seed es una plataforma social que permitirá la organización de grupos, eventos, contratos
+                        sociales y patrocinadores que logren desarrollar de manera eficiente actividades y encuentros
+                        entre personas que busquen realizar voluntariados y labores sociales de diferentes tipos; al
+                        mismo tiempo, utiliza herramientas de procesamiento de datos para su posterior análisis
+                        estadistico, que propicie información diversa con el objetivo de conocer más sobre el
+                        comportamiento de sus usuarios y el impacto de las labores realizadas.</p>
+                    <h4><b>Heart.</b><b>Seed</b></h4>
+                    <div class="img-container"></div>
+                </div>
+                <div class="objetivos">
+                    <h3>Objetivos de <b>Heart.</b><b>Seed</b></h3>
+                    <p>Vivimos en tiempos difíciles y somos los seres humanos quienes tenemos la respondabilidad de
+                        cambiar eso. En Heart.Seed buscamos generar un impacto positivo en el mundo y es por esta razón
+                        que hemos planteado cuatro objetivos principales que hacen de la vida sostenible una meta
+                        posible de lograripoi.</p>
+                    <div class="objetivo-container">
+                        <div class="objetivo animalismo">
+                            <h4>Animalismo</h4>
+                        </div>
+                        <div class="objetivo ecologia">
+                            <h4>Ecología</h4>
+                        </div>
+                        <div class="objetivo justicia">
+                            <h4>Justicia Social</h4>
+                        </div>
+                        <div class="objetivo educacion">
+                            <h4>Educación</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="final" id="final">
+            <h2>¿Qué esperas para cambiar el mundo?</h2>
+            <form action="main-wall.html">
+                <button id="inicia-sesion1">Inicia sesión</button>
+                <button id="registrate1">Regístrate</button>
+            </form>
+            <section class="contactanos">
+                <h2>¡Contáctanos!</h2>
+                <div class="creadores">
+                    <ul>
+                        <li>
+                            <p>Antonio Carbonó Pedroza</p>
+                            <a href="mailto:hacarbonop@eafit.edu.co">hacarbonop@eafit.edu.co</a>
+                        </li>
+                        <li>
+                            <p>David González Idárraga</p>
+                            <a href="mailto:dgonzalezi@eafit.edu.co">dgonzalezi@eafit.edu.co</a>
+                        </li>
+                        <li>
+                            <p>María José González Peláez</p>
+                            <a href="mailto:mjgonzalep@eafit.edu.co">mjgonzalep@eafit.edu.co</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
     </main>
     <footer>
-        <p>Universidad EAFIT, Medellín, Antioquia, Agosto 2022</p>
+        <div class="pie-de-pagina">
+            <p>Universidad EAFIT</p>
+            <p>Medellín, Antioquia, Colombia</p>
+            <p>2022-2</p>
+            <p>&copy; Heart.Seed</p>
+        </div>
     </footer>
 </body>
+
 </html>
