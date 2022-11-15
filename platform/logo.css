@@ -1,0 +1,5 @@
+.imagen {
+    background-image: linear-gradient(to left top, #6EC86E, #29B181, #00978A, #007D85, #1A6274, #2F4858);
+    height: 500px;
+    width: 500px;
+}
