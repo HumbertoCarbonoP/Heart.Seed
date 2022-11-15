@@ -24,7 +24,11 @@ header {
     align-items: stretch;
     position: sticky;
     top: 0px;
+<<<<<<< HEAD
     background-color: #000;
+=======
+    background-color: var(--main-gray);
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
 }
 
 header .encabezado {
@@ -38,7 +42,11 @@ header .logo-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+<<<<<<< HEAD
     margin: 4px;
+=======
+    margin: 0;
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
     padding: 5px;
     width: 240px;
 }
@@ -51,10 +59,30 @@ header .logo-container {
 
 .logo-container h1 {
     font-weight: bold;
+<<<<<<< HEAD
     filter: drop-shadow(5px 5px 10px #000);
     color: #fff;
     padding: 5px;
     font-size: 26px;
+=======
+    padding: 10px;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+.logo-container h1 {
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+.logo-container h1 b:nth-child(1) {
+    color: var(--main-red);
+}
+
+.logo-container h1 b:nth-child(2) {
+    color: var(--main-green);
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
 }
 
 header .buscador {
@@ -98,7 +126,11 @@ header .nav-container ul {
 
 .nav-container li:nth-child(2) i {
     font-size: 20px;
+<<<<<<< HEAD
     color: var(--main-green);
+=======
+    color: var(--main-red);
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
     border-bottom: solid 3px;
 }
 
@@ -110,8 +142,15 @@ body {
 body .background-container {
     height: calc(100vh - 109px);
     width: 100vw;
+<<<<<<< HEAD
     background-image: linear-gradient(to bottom, #6EC86E, #29B181, #00978A, #007D85, #1A6274, #2F4858);
     background-repeat: no-repeat;
+=======
+    background-image: linear-gradient(to right bottom, #ff5050, #ff5584, #f068b1, #d27fd2, #af94e5, #88a2f2, #5aaef4, #23b7ed, #00c0df, #00c7c1, #14c999, #6ec86e);
+    background-repeat: no-repeat;
+    background-size: 500%;
+    animation: fanimation 5s infinite;
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
     background-attachment: fixed;
     position: fixed;
     z-index: -1;

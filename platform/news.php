@@ -17,6 +17,7 @@ require 'connection.php'
     <link rel="shortcut icon" href="meta/favicons/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/icons/fontawesome/css/all.css" />
     <link rel="stylesheet" href="news.css" />
+<<<<<<< HEAD
     <title>Noticias Heart.Seed</title>
 </head>
 
@@ -27,6 +28,18 @@ require 'connection.php'
             <div class="logo-container">
                 <img src="meta/favicons/logo-heart-seed.png" alt="Logo de Heart.Seed" />
                 <h1>Heart.Seed</h1>
+=======
+    <title>Articulos Heart.Seed</title>
+</head>
+
+<body>
+    <div class="background-container"></div>
+    <header>
+        <div class="encabezado">
+            <div class="logo-container">
+                <img src="meta/favicons/logo-heart-seed-color.png" alt="Logo de Heart.Seed" />
+                <h1><b>Heart.</b><b>Seed</b></h1>
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
             </div>
             <div class="buscador">
                 <a href=""><i id="lupa" class="fa-solid fa-magnifying-glass"></i></a>
@@ -36,6 +49,7 @@ require 'connection.php'
             <nav>
                 <ul>
                     <li class="nav-item">
+<<<<<<< HEAD
                         <a href="main-wall.php"><i class="fa-solid fa-house"></i></a>
                     </li>
                     <li class="nav-item">
@@ -46,12 +60,28 @@ require 'connection.php'
                     </li>
                     <li class="nav-item">
                         <a href="profile.php?id_user=<?php echo urlencode($id_user);?>"><i class="fa-solid fa-circle-user"></i></a>
+=======
+                        <a href="main-wall.html"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html"><i class="fa-solid fa-newspaper"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fa-solid fa-chart-line"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="antonio-profile.html"><i class="fa-solid fa-circle-user"></i></a>
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
                     </li>
                     <li>
                         <a href="index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
                     </li>
                     <li class="nav-item" id="lupa-desktop">
+<<<<<<< HEAD
                         <a href="searchP.php"><i class="fa-solid fa-magnifying-glass"></i></a>
+=======
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+>>>>>>> 0b68b0426882dcc2557091d315ada4ebc27bac90
                     </li>
                 </ul>
             </nav>
